@@ -1,0 +1,27 @@
+# Android
+*.apk
+*.ap_
+*.dex
+*.so
+*.class
+
+# Build
+/build/
+/app/build/
+.gradle/
+/.idea/
+/local.properties
+
+# IntelliJ IDEA files
+*.iml
+.gradle/
+.idea/
+build/
+captures/
+output.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
