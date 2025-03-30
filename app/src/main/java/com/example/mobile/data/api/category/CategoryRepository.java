@@ -2,7 +2,7 @@ package com.example.mobile.data.api.category;
 
 import com.example.mobile.data.api.RetrofitClient;
 import com.example.mobile.data.model.categories.Category;
-import com.example.mobile.data.model.products.Product;
+import com.example.mobile.data.model.product.Product;
 
 import java.util.List;
 

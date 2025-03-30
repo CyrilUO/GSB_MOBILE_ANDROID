@@ -1,4 +1,4 @@
-package com.example.mobile.data.model.products;
+package com.example.mobile.data.model.product;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -22,7 +22,7 @@ public class Product {
     private int categoryId;
 
     @SerializedName("images")
-    private byte[] images;
+    private String images;
 
     @SerializedName("created_at")
     private Date createdAt;
@@ -72,11 +72,11 @@ public class Product {
         this.categoryId = categoryId;
     }
 
-    public byte[] getImages() {
+    public String getImages() {
         return images;
     }
 
-    public void setImages(byte[] images) {
+    public void setImages(String images) {
         this.images = images;
     }
 

@@ -1,14 +1,20 @@
 package com.example.mobile.data.model.tokens;
 
+import com.google.gson.annotations.SerializedName;
+
+
 public class TokenResponse {
-    private String access_token;
-    private String token_type;
+
+    @SerializedName("access_token")
+    private String accessToken;
+    @SerializedName("token_type")
+    private String tokenType;
 
     public String getAccessToken(){
-        return access_token;
+        return accessToken;
     }
 
     public String getTokenType() {
-        return access_token;
+        return accessToken;
     }
 }
